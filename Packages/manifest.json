@@ -1,5 +1,8 @@
 {
   "dependencies": {
+    "com.htc.upm.vive-input-utility": "1.17.0",
+    "com.htc.upm.vive.openxr": "1.0.10",
+    "com.htc.upm.wave.xrsdk": "5.1.1-r.4",
     "com.unity.collab-proxy": "1.17.2",
     "com.unity.feature.development": "1.0.1",
     "com.unity.ide.rider": "3.0.15",
@@ -11,8 +14,10 @@
     "com.unity.textmeshpro": "3.0.6",
     "com.unity.timeline": "1.6.4",
     "com.unity.toolchain.linux-x86_64": "2.0.4",
+    "com.unity.toolchain.win-x86_64-linux-x86_64": "2.0.4",
     "com.unity.ugui": "1.0.0",
     "com.unity.visualscripting": "1.7.8",
+    "com.unity.xr.interaction.toolkit": "2.0.4",
     "com.unity.xr.management": "4.3.1",
     "com.unity.xr.openxr": "1.4.2",
     "com.unity.modules.ai": "1.0.0",
@@ -46,5 +51,14 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "VIVE",
+      "url": "https://npm-registry.vive.com",
+      "scopes": [
+        "com.htc.upm"
+      ]
+    }
+  ]
 }
